@@ -20,3 +20,11 @@ function squares ( num: number) : number{
 }
 
 
+//anoonymus function
+
+const colors = ["red", "blue", "yellow"];
+
+colors.map(color => {
+ // return color.toFixed() 
+})
+
