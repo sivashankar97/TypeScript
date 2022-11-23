@@ -13,3 +13,10 @@ type Point = {
 const coord : Point[] = []
 
 coord.push({x : 23 , y : 8}) ;
+
+
+const borad : string [] [] = [
+    ["x", "0" ,"5" ],
+    ["x", "0" ,"5" ],
+    ["x", "0" ,"5" ]
+]
