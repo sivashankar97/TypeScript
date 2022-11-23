@@ -28,3 +28,14 @@ function double ( point : point) : Point {
         x : point.x * 2 , y : point.y * 2 
     }
 }
+
+//nested object
+//  const description = (perosn : { name : string ; age :number ; parents : {
+//     mom : string;
+//     dad : string;
+//  }}) => {
+
+//     return `perosn : ${name},
+//     AGe : ${age}, parents: ${parents.mom}`
+//  }
+ 
