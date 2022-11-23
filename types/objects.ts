@@ -39,3 +39,21 @@ function double ( point : point) : Point {
 //     AGe : ${age}, parents: ${parents.mom}`
 //  }
  
+
+//interscetion type
+
+type circle = {
+    radius : number ;
+};
+
+type colorfull = {
+    color : string;
+};
+
+type colorfullcircke = circle & colorfull ;
+
+
+const  happyface : colorfullcircke {
+    // radius : 3 ,
+    color : yellow,
+}
