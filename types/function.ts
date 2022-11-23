@@ -36,3 +36,15 @@ function dname(msg:string):void {
 
     
 }
+
+//never
+
+function makeError (msg :string) : never {
+    throw new Error (msg);
+}
+
+function gameloop() : never {
+    while (true) {
+        console.log(" im still going");
+    }
+}
