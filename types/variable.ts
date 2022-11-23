@@ -1,11 +1,23 @@
-let movie : string = "Amadeus" ;
+ export {};
 
-movie = "arrival";
+let moggvie : string = "Amadeus" ;
+
+moggvie = "arrival";
 
  // movie = 9 ; 
 
- movie.toUpperCase() ;
+ moggvie.toUpperCase() ;
 
- let myboolean : boolean = true ;
+ let mybfoolean : boolean = true ;
 
-  let number : number = 52 ;
+  let nuffmber : number = 52 ;
+
+
+// thing any type
+
+let thing : any = "hello";
+
+thing = 1;
+thing = false ;
+
+
