@@ -21,3 +21,16 @@ thing = 1;
 thing = false ;
 
 
+// delayed initilization
+
+const movie = ["arrival" , " the thing"];
+
+let foundmovie : string ;
+
+for (let movies of movie ) {
+    if ( movies === "arrival") {
+        foundmovie = 'arrival';
+    }
+    
+}
+
