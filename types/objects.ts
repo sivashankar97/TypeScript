@@ -23,11 +23,11 @@ type point = {
 
 };
 
-function double ( point : point) : Point {
-    return {
-        x : point.x * 2 , y : point.y * 2 
-    }
-}
+// function double ( point : point) : Point {
+//     return {
+//         x : point.x * 2 , y : point.y * 2 
+//     }
+// }
 
 //nested object
 //  const description = (perosn : { name : string ; age :number ; parents : {
@@ -53,7 +53,8 @@ type colorfull = {
 type colorfullcircke = circle & colorfull ;
 
 
-const  happyface : colorfullcircke {
-    // radius : 3 ,
-    color : yellow,
-}
+// const  happyface : colorfullcircke {
+//     // radius : 3 ,
+//     color : yellow,
+// }
+
