@@ -14,3 +14,17 @@ function makerandom() : {
 } {
     return { x : Math.random(), y : Math.random()}
 }
+
+//type allias
+
+type point = {
+    x : number ;
+    y : number;
+
+};
+
+function double ( point : point) : Point {
+    return {
+        x : point.x * 2 , y : point.y * 2 
+    }
+}
