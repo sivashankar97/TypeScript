@@ -28,3 +28,11 @@ colors.map(color => {
  // return color.toFixed() 
 })
 
+// void type
+
+function dname(msg:string):void {
+
+    console.log(msg);
+
+    
+}
